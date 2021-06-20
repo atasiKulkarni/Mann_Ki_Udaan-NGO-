@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap');
+.full-screen {
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(241, 229, 229);
+}
+#blog-id a
+{
+    color: rgb(12, 100, 64);
+    font-family: 'Permanent Marker', cursive;
+   
+}
+
+#blog-id a:link
+{
+   
+    padding: 10px 20px;
+    margin-right:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  
+  #blog-id a:hover
+  {
+    display: block;
+    color: rgb(179, 9, 102);
+    text-decoration: none;
+    transform: scale(1.5);
+  }
+  #blog-id
+  {
+    
+    background-color: rgb(255, 197, 8);
+    position: relative;
+  display: inline-block;
+    padding: 8px;
+    font-size: 30px;
+   
+    display:flex;
+  }
+  
+  #blog-header
+  {  
+    position: relative;
+    padding: 5px 5px;
+    margin-top: 2px;
+    margin-right:4px;
+    text-align: right;
+    overflow: hidden;
+    
+    background-color: white;
+  }
+  #blog-header a:hover img
+  {
+  
+  transform: scale(1.5);
+  
+  }
+  li
+  {
+    list-style-type: none;
+    display: flex;
+    
+  }
+  
+  #nav
+  {
+    
+    background-color: black;
+    background: cover;
+    font-size: 20px;
+    font-family: 'Castoro', serif;
+    display:flex;
+    color: white;
+    
+  }
+  h1
+  {
+    float: left;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    margin-left:10px;
+  }
+  #main-blog
+  {
+    background-color: black;
+  }
+  #blog-footer
+  {
+    background-color: rgb(37, 36, 36);
+    color: white;
+    
+  }
+  h6
+  {
+    font-family: 'Fraunces', serif;
+    margin-right: 50px;
+    margin-top: 1px;
+    font-size: 15px;
+   
+    
+  }
+  p
+  {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 5px;
+  }
+  #donate
+  {
+    padding: 10px;
+    background-color: rgb(241, 229, 229);
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #button
+  {
+    border: 3px solid black;
+    padding: 10px;
+    
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    margin-top:10px;
+  }
+  #btn
+  {
+   
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Fraunces', serif;
+    margin-top:10px;
+    margin-left: 150px;
+    margin-right:10px;
+    
+    
+  }
+  
+  #btn a:hover
+  {
+    
+    color:rgb(255, 197, 8);
+  }
+  #locateus
+  {
+    color: white;
+    width: 180px;
+    padding: 10px;
+    font-size: 15px;
+    
+    margin-top:10px;
+    margin-left: 380px;
+    margin-right: 30px;
+    font-family: 'Fraunces', serif;
+   
+    
+  }
+  #locateus a:link
+  {
+    color: white;
+    margin-left: 10px;
+    
+  }
+  #locateus a:hover
+  {
+    
+    color: rgb(240, 6, 6);
+  }
+  #tagline
+  {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    
+    margin-top: 10px;
+    margin-left:25px;
+    
+  }
+  #blog-info
+  {
+    font-family: 'Fraunces', serif;
+   
+    padding: 10px;
+    text-align: center;
+    
+  }
+ #aboutus
+ {
+   margin-top:20px;
+   margin-right: 10px;
+   padding: 40px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(179, 9, 102);
+    background-color: rgb(255, 197, 8);
+    border-radius: 20px;
+ }
+#blog-about
+{
+  background-color:white;
+  
+}
+
+
+#blog-become
+ {
+   margin-top: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 90px;
+   
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(179, 9, 102);
+    
+    
+ }
+ #blog-vision{
+  font-family: 'Fraunces', serif;
+  margin-right: 50px;
+  margin-left: 150px;
+  padding: 10px;
+ 
+ }
+ 
+ h2
+ {
+   float: center;
+   font-family: 'Fraunces', serif;
+   font-size: 40px;
+   margin-left:5px;
+ }
+ #team-blog
+ {
+   background-color: black;
+   color: white;
+ }
+ h5
+ {
+   text-align: center;
+   font-family: 'Fraunces', serif;
+   font-size: 20px;
+   margin-left:5px;
+   margin-top:3px;
+ }
+ th{
+   padding: 6px;
+   border: 3px solid rgb(10, 10, 10);
+   
+ }
+ #blog-trustee
+ {
+   margin-left: px;
+ }
+ #trust
+ {
+   text-align: center;
+ }
+ #sucess-blog
+ {
+   background-color: white;
+   
+ }
+ h3
+ {
+   text-align: center;
+   font-family: 'Fraunces', serif;
+   border: 2px solid black;
+   background-color: black;
+   color: white;
+   
+ }
+ 
+ #read-more
+ {
+    float: center;
+    border: 2px solid red;
+ }
+ 
+.form-group
+{
+  float: center;
+  width: 200px;
+}
+.backRight {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #e6650f url(https://download.unsplash.com/photo-1429041966141-44d228a42775);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.backLeft {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #e74c3c url(https://download.unsplash.com/photo-1428279148693-1cf2163ed67d);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -999;
+}
+
+#slideBox {
+  width: 50%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 50%;
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.topLayer {
+  width: 200%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  left: -100%;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background: #2C3034;
+  left: 0;
+  position: absolute;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: #f9f9f9;
+  right: 0;
+  position: absolute;
+}
+
+.content {
+  width: 250px;
+  margin: 0 auto;
+  top: 30%;
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+}
+
+.content h2 {
+  color: #03A9F4;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+button{
+  background: #03A9F4;
+  padding: 10px 16px;
+  
+  width: auto;
+  font-weight: 600;
+  text-transform:  uppercase;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  border: 0;
+  outline: 0;
+  margin: 15px 15px 15px 0;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background: #0288D1;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+.off {
+  background: none;
+  color: #03A9F4;
+  box-shadow: none;
+}
+
+.right .off:hover {
+  background: #eee;
+  color: #03A9F4;
+  box-shadow: none;
+}
+.left .off:hover {
+  box-shadow: none;
+  color: #03A9F4;
+  background: #363A3D;
+}
+input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #45494C;
+  font-size: 14px;
+  color: #959595;
+  padding: 8px 0;
+  margin-top: 20px;
+}
+#tagline a{
+  color: white;
+  font-size: 18px;
+}
+#map-canvas{
+  width:500px;
+	height:300px;
+  padding-bottom:5px}
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #0f0f0f;
+    padding: 20px;
+    color: white;
+  }
